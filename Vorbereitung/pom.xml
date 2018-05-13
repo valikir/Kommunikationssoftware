@@ -1,0 +1,11 @@
+<project>
+<modelVersion>4.0.0</modelVersion>
+<artifactId>Vorbereitung</artifactId>
+<version>2.0</version>
+<packaging>jar</packaging>
+<parent>
+<groupId>java</groupId>
+<artifactId>junior</artifactId>
+<version>2.0</version>
+</parent>
+</project>
