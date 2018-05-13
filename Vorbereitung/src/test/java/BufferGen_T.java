@@ -31,7 +31,7 @@ public class BufferGen_T {
         /* Add 5 elements */
         for (int i = 1; i<=5; i++) {
             String k = "Number" + i;
-            buffer.add(k);
+            buffer.add(k); 
         }
 
         /* Length of array is 5 */
