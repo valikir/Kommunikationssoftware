@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_background"
+    android:id ="@+id/background"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_margin="16dp"
+    android:layout_weight="1"
+    android:id="@+id/device"
+    android:background="@drawable/round_rect_shape_off">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lamp"
+        android:layout_margin="8dp"
+        style="@style/AppTheme"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/lamp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/lightbulb_off"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:id="@+id/ONOFF"
+        android:layout_marginBottom="8dp"
+        android:text="OFF"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:id="@+id/device2"
+        android:background="@drawable/round_rect_shape_off">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:layout_margin="8dp"
+            style="@style/AppTheme"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleY="0.8"
+            android:scaleX="0.8"
+            android:src="@drawable/temperature"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:id="@+id/temperature"
+        android:layout_marginBottom="8dp"
+        android:text="°C"/>
+
+    </RelativeLayout>
+</LinearLayout>
