@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected TextView doInBackground(String... args) {
-            
             TextView textView = null;
             String url = args[0];
             //Pass URL
